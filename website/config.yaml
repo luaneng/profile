@@ -1,6 +1,6 @@
 baseURL: "https://hugo-profile.netlify.app"
 languageCode: "en-us"
-title: "Hugo-profile"
+title: "Luan Henrique"
 theme: "./.."
 relativeURLs: true
 
@@ -35,9 +35,9 @@ params:
   name: "Example name"
   namecolor: ffc107
   profession: "Profession"
-  github: "https://github.com"
+  github: "https://github.com/luaneng"
   gitlab: "https://gitlab.com"
-  linkedin: "https://linkedin.com"
+  linkedin: "https://linkedin.com/luanzzxx"
   twitter: "https://twitter.com/"
   instagram: "https://instagram.com/"
   facebook: "https://facebook.com"

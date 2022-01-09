@@ -3275,7 +3275,7 @@ input[type="button"].btn-block {
       .navbar-expand-sm .navbar-nav .dropdown-menu {
         position: absolute; }
       .navbar-expand-sm .navbar-nav .nav-link {
-        padding-right: 0.5rem;
+        padding-right: 0.1rem;
         padding-left: 0.5rem; }
     .navbar-expand-sm > .container,
     .navbar-expand-sm > .container-fluid, .navbar-expand-sm > .container-sm, .navbar-expand-sm > .container-md, .navbar-expand-sm > .container-lg, .navbar-expand-sm > .container-xl {
@@ -7451,9 +7451,9 @@ aside .social-links {
     color: #0067f6;
     text-align: center;
     background-color: #ffffff;
-    padding: 8px;
-    width: 28px;
-    height: 28px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     margin-right: 4px; }
     aside .social-links .social-link:last-child {

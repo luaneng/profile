@@ -14,8 +14,36 @@
 
 <body>
     <header>
-        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
-            COMPARTILHAR</button>
+        <div class="container">
+            <button class="btn-share">
+                <i class="fas fa-share-alt"></i>
+            </button>
+            <div class="share-options">
+                <p class="title">Compartilhar</p>
+                <div class="social-media">
+                    <a target="_blank" rel="noopener noreferrer" href="whatsapp://send?text=https://luaneng.github.io/profile/">
+                        <button class="social-media-btn"><i class="fab fa-whatsapp"></i></button></a>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://mail.google.com/mail/?view=cm&to=%7Bemail_address%7D&su=&body=https://luaneng.github.io/profile/&bcc=%7Bemail_address%7D&cc=%7Bemail_address%7D">
+                        <button class="social-media-btn"><i class="fab fa-google"></i></button></a>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/intent/tweet?url=https://luaneng.github.io/profile/&text=&via=">
+                        <button class="social-media-btn"><i class="fab fa-twitter"></i></button></a>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//luaneng.github.io/profile/">
+                        <button class="social-media-btn"><i class="fab fa-facebook-f"></i></button></a>
+                    </a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/shareArticle?url=https://luaneng.github.io/profile/&title=">
+                        <button class="social-media-btn"><i class="fab fa-linkedin-in"></i></button></a>
+                    </a>
+    
+                </div>
+                <div class="link-container">
+                    <p class="link">luaneng.github.io/profile</p>
+                    <button onclick="copyToClipboard('https://luaneng.github.io/profile')" class="copy-btn">copiar</button>
+                </div>
+            </div>
+        </div>
         <nav class="collapsible-nav" id="collapsible-nav">
             <a href="index.html" class="nav-link">HOME</a>
             <a href="contact.html" class="nav-link">CONTATO</a>
@@ -33,20 +61,20 @@
                 <span class="badge badge-white badge-pill profile-designation">Engenheiro Mecânico</span>
             </div>
             <nav class="social-links">
-                <a href="grabcad.com/luan.henrique-11/models"> <i class="fas fa-drafting-compass fa-2x    " ></i></a>
-                <a href="linkedin.com/luanzzxx"><i class="fab fa-linkedin-in fa-2x " > </i></a>
-                <a href="github.com/luaneng"><i class="fab fa-github fa-2x  "> </i></a>
+                <a href="https://grabcad.com/luan.henrique-11/models"> <i class="fas fa-drafting-compass fa-2x    " ></i></a>
+                <a href="https://linkedin.com/luanzzxx"><i class="fab fa-linkedin-in fa-2x " > </i></a>
+                <a href="https://github.com/luaneng"><i class="fab fa-github fa-2x  "> </i></a>
             </nav>
             <div class="widget">
                 <h5 class="widget-title">Informações Pessoais</h5>
                 <div class="widget-content">
                     <p>NASCIMENTO: 07 Agosto 1998</p>
-                    <p>SITE : <a href="github.com/luaneng">github.com/luaneng</a></p>
-                    <p>NÚMERO : <a href="https://api.whatsapp.com/send?phone=5542984449614">+55 (42)98444-9614</a></p>
+                    <p>SITE : <a target="_blank" rel="noopener noreferrer" href="https://github.com/luaneng">github.com/luaneng</a></p>
+                    <p>NÚMERO : <a target="_blank" rel="noopener noreferrer" href="https://api.whatsapp.com/send?phone=5542984449614">+55 (42)98444-9614</a></p>
                     <p>EMAIL : launoliveiar@gmail.com</p>
-                    <p>ENDEREÇO : <a href="https://goo.gl/maps/g3YFnzuBhQuAjz7YA">Guarapuava-PR, Vila Bela</a></p>
+                    <p>ENDEREÇO : <a target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/g3YFnzuBhQuAjz7YA">Guarapuava-PR, Vila Bela</a></p>
                     <button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download"
-                        class="btn-img"><a href="https://drive.google.com/file/d/1Gl5ajKC_g90UPr2rEuTsfqhd7AFmumIZ/view?usp=sharing" style="color:#ffffff;">DOWNLOAD</a></button>
+                        class="btn-img"><a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1Gl5ajKC_g90UPr2rEuTsfqhd7AFmumIZ/view?usp=sharing" style="color:#ffffff;">DOWNLOAD</a></button>
                 </div>
             </div>
             <div class="widget card">
@@ -99,6 +127,7 @@
                         <textarea name="message" id="message" class="form-control" placeholder="MESSAGE" rows="5"></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary form-submit-btn">Enviar mensagem</button>
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
 
             </section>

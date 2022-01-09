@@ -31,6 +31,20 @@ function setHoverBoxPerspective() {
     });
 }
 
+const shareBtn = document.querySelector('.btn-share');
+const shareOptions = document.querySelector('.share-options');
+
+shareBtn.addEventListener('click', () => {
+    shareOptions.classList.toggle('active');
+})
+
+function copyToClipboard(element) {
+    var $temp = $("<input>");
+    $("body").append($temp);
+    $temp.val($(element).text()).select();
+    document.execCommand("copy");
+    $temp.remove();
+}
 
 var classNames = ['in-up', 'in-right', 'in-down', 'in-left', 'out-up', 'out-right', 'out-down', 'out-left']; // Animation classes.
 

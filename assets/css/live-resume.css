@@ -7540,7 +7540,7 @@ aside .widget {
   opacity: 0;
   transition: .5s;
   transition-delay: 0s;
-  width: 250px;
+  width: 150px;
   height: 120px;
   display: flex;
   align-items: center;
@@ -7596,7 +7596,7 @@ aside .widget {
   height: 26px;
   display: flex;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 50px;
   background-color: #fff;
   overflow: hidden;
   padding: 0 10px;
@@ -7607,6 +7607,8 @@ aside .widget {
   height: 100%;
   line-height: 40px;
   color: #000;
+  font: "Mukta", sans-serif;
+  font-size: 8;
 }
 
 .copy-btn{
@@ -7619,7 +7621,7 @@ aside .widget {
   height: 100%;
   width: 30%;
   text-transform: capitalize;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .share-options.active .title,

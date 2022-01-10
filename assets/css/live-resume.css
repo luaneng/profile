@@ -7480,6 +7480,12 @@ aside .widget {
     aside .widget.card .widget-title {
       color: #0067f6; }
 
+#target {
+  width:100px;
+  height:100px;
+  border:1px solid #ccc;
+      }
+
 .btn-share {
   
   position: relative;
@@ -7498,11 +7504,11 @@ aside .widget {
 }
 .share-options{
   position: absolute;
-  bottom: 50%;
-  left: 50%;
+  bottom: -95%;
+  left: 31%;
   width: auto;
   height: auto;
-  transform-origin: bottom left;
+  transform-origin: bottom;
   transform: scale(0);
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -7670,7 +7676,7 @@ header {
   margin-right: 10px;
   transition: width 0.6s ease-in-out; }
   .collapsible-nav.show {
-    width: 365px; }
+    width: 200px; }
 
     
   @media (max-width: 991px) {
